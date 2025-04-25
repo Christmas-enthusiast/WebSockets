@@ -1,0 +1,7 @@
+com\mycompany\clientfrontend\SecondaryController.class
+com\mycompany\clientfrontend\PrimaryController.class
+module-info.class
+com\mycompany\clientfrontend\Client.class
+com\mycompany\clientfrontend\ClientSender.class
+com\mycompany\clientfrontend\BackendClient.class
+com\mycompany\clientfrontend\App.class
