@@ -110,7 +110,14 @@ class ClientHandler extends Thread {
             }
             }
             catch (IOException e) {
+                try {
+                this.client.close();
+                }
+                catch (IOException e2) {
+                    System.out.println(e2);
+                }
                 System.out.println("error");
+                
             }
         }
     }

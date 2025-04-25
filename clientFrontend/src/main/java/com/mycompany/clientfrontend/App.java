@@ -33,6 +33,7 @@ public class App extends Application {
     public static String getMessageList() {
         try {
             String messageList = queue.take();
+            System.out.println(messageList);
             return messageList;
         }
         catch (InterruptedException e) {
